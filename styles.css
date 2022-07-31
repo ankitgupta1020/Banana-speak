@@ -1,13 +1,7 @@
 :root {
-    --primary: #F2C94C;
+    --primary: #F3E6BB;
     --black: #333333;
     --width-break: 600px;
-}
-
-body {
-    margin: 0;
-    font-family: 'Kalam';
-    color: #333333;
 }
 
 main {
@@ -15,6 +9,15 @@ main {
     padding: 1rem;
     max-width: var(--width-break);
 }
+
+
+body {
+    margin: 0;
+    font-family: 'Montserrat', sans-serif;
+    font-family: 'Square Peg', cursive;
+    color: #333333;
+}
+
 
 textarea {
     box-sizing: border-box;
@@ -54,11 +57,9 @@ nav {
 }
 
 
-*{
+* {
     box-sizing: border-box;
 }
-
-
 
 /** footer **/
 footer {
