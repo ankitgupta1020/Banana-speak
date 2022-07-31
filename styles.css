@@ -1,12 +1,12 @@
 :root {
-    --primary: #F3E6BB;
+    --primary: #FEDD00;;
     --black: #333333;
     --width-break: 600px;
 }
 
 main {
     margin: auto;
-    padding: 1rem;
+    padding: 2rem;
     max-width: var(--width-break);
 }
 
@@ -27,14 +27,17 @@ textarea {
     margin-top: 2rem;
     font-size: large;
     font-family: inherit;
+    
 }
+
 
 button {
     background-color: var(--primary);
     border: none;
     margin: 1rem 0rem;
     padding: 1rem 2rem;
-    font-family: 'Kalam', cursive;
+    font-family: 'Montserrat', sans-serif;
+    font-family: 'Square Peg', cursive;
     font-size: large;
 }
 
@@ -43,7 +46,7 @@ element.style {
     font-size: large;
 }
 
-#translate-output {
+#output {
     box-sizing: border-box;
     width: 100%;
     min-height: 20vh;
@@ -60,7 +63,9 @@ nav {
 * {
     box-sizing: border-box;
 }
-
+div {
+    display: block;
+}
 /** footer **/
 footer {
     position: fixed;
@@ -69,5 +74,6 @@ footer {
     padding: 1rem;
     background-color: var(--primary);
     text-align: center;
-    display: block;
+
 }
+
